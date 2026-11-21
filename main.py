@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Copy the pre-rendered front page to the grader's output directory.
+"""Hand the finished front page to the grader.
 
-Standard library only: the grader installs nothing and has no network.
+Only the standard library is used: nothing is installed and there is
+no network at grading time, so this just copies the bundled PNG.
 """
 
 import os
